@@ -65,11 +65,12 @@ secret: pDDGdirnNTsOuW4Yh6EwaCMsU6ga
 
 ### Step 4. Python + virtual environments and pip
 
-Follow all the steps in the guide for your operating system. Ensure that you are able to switch between virtual environments and that you are able to install new modules using pip.
+Follow all the steps in the guide for your operating system. After installing virtualenv and pip, install virtualenvwrapper
 
-* [Installing on Mac OS X](http://docs.python-guide.org/en/latest/starting/install/osx/)
-* [Installing on Linux](http://docs.python-guide.org/en/latest/starting/install/linux/)
-* [Installing on Windows](http://docs.python-guide.org/en/latest/starting/install/win/)
+* [Installing Python on Mac OS X](http://docs.python-guide.org/en/latest/starting/install/osx/)
+* [Installing Python  on Linux](http://docs.python-guide.org/en/latest/starting/install/linux/)
+* [Installing Python  on Windows](http://docs.python-guide.org/en/latest/starting/install/win/)
+* [Installing virtualenvwrapper](http://virtualenvwrapper.readthedocs.org/en/latest/install.html)
 
 ### Step 5. Install cURL
 
@@ -99,6 +100,7 @@ We've tried to distill down the bare minimum you will need to be productive deve
     * [cURL Tutorial](http://curl.haxx.se/docs/httpscripting.html) - Read up on at least the followings flags -s -k -u -L -X -F and -H
 * Python
     * [virtualenv](http://docs.python-guide.org/en/latest/dev/virtualenvs/) - Manage dependency chaos with virtualenvs
+    * [virtualenvwrapper](http://virtualenvwrapper.readthedocs.org/en/latest/) - Swap between virtual environments. Very handy!
     * [pip](https://pip.pypa.io/en/latest/) - Installing dependencies
 * REST
     * [M. Elkstein's unparalleled REST Tutorial](http://rest.elkstein.org/)
