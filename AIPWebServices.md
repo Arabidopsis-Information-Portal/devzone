@@ -43,6 +43,7 @@ Parameters
 ## AIP locus_gene_report_v0.1
 
 Function: Given a locus, return curatorDescription, briefDescription, name, and computationalDescription in AIP-conformant JSON
+
 Source: https://github.com/Arabidopsis-Information-Portal/aip_thalemine_webservices/tree/master/locus_gene_report
 
 Usage
@@ -52,6 +53,48 @@ curl -skL -H "Authorization: Bearer $TOKEN" -X GET "https://api.araport.org/comm
 
 Parameters
 * locus: any valid AGI identifier
+
+## AIP synonymResolver
+
+Function: Provides lightning-fast mapping of synonyms, aliases, and database identifiers to and from Arabidopsis AGI locus identifiers. 
+
+Source: https://github.com/Arabidopsis-Information-Portal/aip_SynonymResolver
+
+### resolver_fetch_synonyms_by_locus_v0.1
+
+Function: List the supported synonym namespaces
+
+Usage
+```
+curl -skL -X GET -H "Authorization: Bearer $TOKEN" "https://api.araport.org/community/v0.3/aip/resolver_synonym_kinds_v0.1/list"
+```
+
+Parameters
+* None
+
+### resolver_fetch_locus_by_synonym_v0.2
+
+Function: Lookup an AGI locus identifier from its synonym
+
+Usage
+```
+curl -skL -X GET -H "Authorization: Bearer $TOKEN" "https://api.araport.org/community/v0.3/aip/resolver_fetch_locus_by_synonym_v0.2/search?identifier=FWA"
+```
+
+Parameters
+* identifier : Any reasonable synonym, alias, or database identifer. If we can't find it you'll get back an empty result
+
+### resolver_fetch_synonyms_by_locus_v0.1
+
+Function: Return all synonyms, etc. for a given AGI locus identifier
+
+Usage
+```
+curl -skL -X GET -H "Authorization: Bearer $TOKEN" "https://api.araport.org/community/v0.3/aip/resolver_fetch_synonyms_by_locus_v0.1/search?locus=AT4G25530"
+```
+
+Parameters
+* locus : any valid AGI identifier
 
 ## AIP agave/v2
 
@@ -63,7 +106,8 @@ Usage: Documented extensively at the [Agave API Developer Portal](http://agaveap
 
 ## AIP intermine/v0.4
 
-Function: Provides computational access to all Intermine web services.
+Function: Provides computational access to all Intermine web services
+
 Source: Not applicable
 
 Usage: Unlike APIs served from the /community endpoint, Intermine APIs at present do not require (or accept) authentication though we expect this to change in the 0.5 release of the service. The APIs supported by Intermine are documented at a [central dashboard](http://iodocs.labs.intermine.org/) where we expect Thalemine to appear soon. For now, you will need to use your imagination a bit to map the API URLs from the iodocs pages to a working invocation of the Thalemine API. 
