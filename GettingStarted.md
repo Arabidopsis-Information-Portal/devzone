@@ -1,15 +1,17 @@
 # Getting Started with AIP Development
 
-Welcome aboard. We're so happy you are interested in joining the community of [AIP](https://www.araport.org) developers. We've tried to make it reasonably straightforward for you to get in and start contributing right away. Please work through this 'getting started' guide and consider also joining the [Araport-Developers Google Group](https://groups.google.com/forum/#!forum/araport-developers). 
+Welcome aboard. We're so happy you are interested in joining the community of [AIP](https://www.araport.org) developers. We've tried to make it reasonably straightforward for you to get in and start contributing right away. Please work through this 'getting started' guide and consider also joining the [Araport-Developers Google Group](https://groups.google.com/forum/#!forum/araport-developers). Also, make sure to keep an eye on the [Araport Developer Zone](https://www.araport.org/devzone) for new features and announcements. 
 
-## Acquire necessary accounts
-You need two sets of credentials to develop AIP content. Please sign up for and activate these accounts now.
+_If you're coming to our November workshop, we suggest you try to get through installation and configuration of the prerequisites to maximize the time you can spend learning new material._
+
+## Acquiring the necessary accounts
+You need two sets of credentials to develop AIP content:
 
    * [Araport.org](https://www.araport.org/user/register)
    * [Github.com](https://github.com/join)
 
-## Install and configure dependencies
-The list of requirements to start AIP development is relatively minimal, but you do need a few things installed. You also need to be comfortable using them! We assume that you are developing in Linux or Mac OS X (because they are UNIX-like), but all of these tools are also available and usable under Windows 7 (or better). 
+## Installing and configuring dependencies
+The list of requirements to start AIP development is relatively minimal, but you do need a few things installed. You also ought to get comfortable using them! We assume that you are developing in Linux or Mac OS X (because they are UNIX-like), but all of these tools are also available and usable under Windows 7 (or better). 
 
    * Git
    * Agave CLI
@@ -88,8 +90,8 @@ You have many to choose from! If you don't have a favorite yet, might we suggest
 * [Google Chrome: Advanced REST Client](https://chrome.google.com/webstore/detail/advanced-rest-client/hgmloofddffdnphfgcellkdfbfbjeloo?hl=en-US)
 * [Mozilla Firefox: RESTClient](https://addons.mozilla.org/en-US/firefox/addon/restclient/)
 
-## Brush up on the basics
-We've tried to distill down the bare minimum you will need to be productive developing AIP apps and data services. Depending on your experience, your mileage may vary.
+## Brushing up on the basics
+We've tried to distill down the bare minimum of material needed to create Araport apps and data APIs. If some of this is new, don't worry. You'll get more experience working through the worked example tutorials we will be publishing.
 
 * HTML/Javascript/CSS
     * [Learn jQuery](http://learn.jquery.com/) - At least read JavaScript 101 :-)
@@ -110,7 +112,9 @@ We've tried to distill down the bare minimum you will need to be productive deve
     * [Original Markdown spec](http://daringfireball.net/projects/markdown/) - Learn at least the basic tags here
     * [GitHub flavored Markdown](https://help.github.com/articles/github-flavored-markdown/) - AIP uses this dialect for integration with Github
 
-## More Resources 
+## Diving deeper with additional resources
+The Araport project stands on the shoulders of giants, so there's a lot of other background or reference material that you might be interested in. Here are a few suggested resources to broaden your knowledge base.
+
 * [AIP Developer Zone](https://www.araport.org/devzone/) - Developer HQ for creating AIP apps and services. Home of SDKs, tutorials, examples, and more
 * [AIP Project Github](https://github.com/Arabidopsis-Information-Portal) - For better or worse, it's all out there
 * [Thalemine User Guide](https://www.araport.org/thalemine/user-guide) - Start here if you're new to Intermine. API documentation coming soon!
