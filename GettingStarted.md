@@ -65,7 +65,7 @@ secret: pDDGdirnNTsOuW4Yh6EwaCMsU6ga
 
 ### Step 4. Python + virtual environments and pip
 
-Follow all the steps in the guide for your operating system. Ensure that you are able to switch between vritual environments and that you are able to install new modules using pip. 
+Follow all the steps in the guide for your operating system. Ensure that you are able to switch between virtual environments and that you are able to install new modules using pip.
 
 * [Installing on Mac OS X](http://docs.python-guide.org/en/latest/starting/install/osx/)
 * [Installing on Linux](http://docs.python-guide.org/en/latest/starting/install/linux/)
@@ -111,7 +111,7 @@ We've tried to distill down the bare minimum you will need to be productive deve
 ## More Resources 
 * [AIP Developer Zone](https://www.araport.org/devzone/) - Developer HQ for creating AIP apps and services. Home of SDKs, tutorials, examples, and more
 * [AIP Project Github](https://github.com/Arabidopsis-Information-Portal) - For better or worse, it's all out there
-* [Thalemine User Guide](https://www.araport.org/thalemine/user-guide) - Start here if you're new to Intermine. API documenation coming soon!
+* [Thalemine User Guide](https://www.araport.org/thalemine/user-guide) - Start here if you're new to Intermine. API documentation coming soon!
 * [Jbrowse documentation](http://jbrowse.org/) - Our genome browser of choice
 * [Simple Daily Git Workflow](https://www.sonassi.com/wp-content/uploads/2012/07/simple_git_daily_workflow.pdf) - Print it out. Tape it up over your desk. 
 * [OAuth2 Simplified](http://aaronparecki.com/articles/2012/07/29/1/oauth2-simplified) - AIP uses OAuth2 for authentication. In addition to our specific documentation, here's an overview.
