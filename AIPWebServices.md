@@ -1,7 +1,7 @@
 ## BAR expressologs_by_locus_v0.1
 
-Function: Given a locus, return all homologous genes that exhibit similar expression patterns in equivalent tissues in other plant species.
-GitHub: https://github.com/Arabidopsis-Information-Portal/bar_webservices_demos/tree/master/expressologsByLocus
+Function: Given a locus, return all homologous genes that exhibit similar expression patterns in equivalent tissues in other plant species
+Source: https://github.com/Arabidopsis-Information-Portal/bar_webservices_demos/tree/master/expressologsByLocus
 
 Usage
 ```
@@ -14,7 +14,7 @@ Parameters
 ## BAR efp_by_locus_v0.1
 
 Function: Given a locus and data source, return an eFP image depicting its expression pattern in that data source
-GitHub: https://github.com/Arabidopsis-Information-Portal/bar_webservices_demos/tree/master/efpByLocus
+Source: https://github.com/Arabidopsis-Information-Portal/bar_webservices_demos/tree/master/efpByLocus
 
 Usage
 ```
@@ -42,8 +42,8 @@ Parameters
 
 ## AIP locus_gene_report_v0.1
 
-Function: Given a locus, return curatorDescription, briefDescription, name, and computationalDescription in AIP-conformant JSON. 
-Github: https://github.com/Arabidopsis-Information-Portal/aip_thalemine_webservices/tree/master/locus_gene_report
+Function: Given a locus, return curatorDescription, briefDescription, name, and computationalDescription in AIP-conformant JSON
+Source: https://github.com/Arabidopsis-Information-Portal/aip_thalemine_webservices/tree/master/locus_gene_report
 
 Usage
 ```
@@ -53,11 +53,18 @@ curl -skL -H "Authorization: Bearer $TOKEN" -X GET "https://api.araport.org/comm
 Parameters
 * locus: any valid AGI identifier
 
+## AIP agave/v2
+
+Function: Provides foundational support for AIP and other projects, including authentication & authorization, file handling & transfer, job execution & management, events & notifications, monitoring, and user profile management
+
+Source: https://bitbucket.org/taccaci/agave
+
+Usage: Documented extensively at the [Agave API Developer Portal](http://agaveapi.co/). Interaction with the Araport-specific instance of Agave is via the [Araport API Manager](https://api.araport.org/store/).
 
 ## AIP intermine/v0.4
 
-Function: Provides computational access to all Intermine web services. 
-GitHub: Not applicabel
+Function: Provides computational access to all Intermine web services.
+Source: Not applicable
 
 Usage: Unlike APIs served from the /community endpoint, Intermine APIs at present do not require (or accept) authentication though we expect this to change in the 0.5 release of the service. The APIs supported by Intermine are documented at a [central dashboard](http://iodocs.labs.intermine.org/) where we expect Thalemine to appear soon. For now, you will need to use your imagination a bit to map the API URLs from the iodocs pages to a working invocation of the Thalemine API. 
 
@@ -68,6 +75,6 @@ curl -skL -X GET "http://yeastmine.yeastgenome.org/yeastmine/service/model?forma
 
 The cognate call for Thalemine is:
 ```
-curl -skL "https://api.araport.org/intermine/v0.4/model?format=json"
+curl -skL -X GET "https://api.araport.org/intermine/v0.4/model?format=json"
 ```
 
