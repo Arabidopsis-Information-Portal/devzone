@@ -1,6 +1,7 @@
 ## BAR expressologs_by_locus_v0.1
 
 Function: Given a locus, return all homologous genes that exhibit similar expression patterns in equivalent tissues in other plant species
+
 Source: https://github.com/Arabidopsis-Information-Portal/bar_webservices_demos/tree/master/expressologsByLocus
 
 Usage
@@ -28,6 +29,8 @@ Parameters
 ## ATTED atted_coexpressed_by_locus_v0.1
 
 Function: Given a locus and a method/threshold for measuring similarity, return all Arabidopsis loci that are coexpressed with the query locus. Makes use of the ATTED-II v2 and the AIP synonym_to_locus APIs. 
+
+Source: https://github.com/Arabidopsis-Information-Portal/atted_webservices
 
  Usage
  ```
