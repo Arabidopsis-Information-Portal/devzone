@@ -109,19 +109,15 @@ Usage: Documented extensively at the [Agave API Developer Portal](http://agaveap
 
 ## AIP intermine/v0.4
 
-Function: Provides computational access to all Intermine web services
+Function: Provides computational access to all ThaleMine web services.
 
-Source: Not applicable
+ThaleMine is an implementation of the [InterMine](http://intermine.org) biological data warehouse.
 
-Usage: Unlike APIs served from the /community endpoint, Intermine APIs at present do not require (or accept) authentication though we expect this to change in the 0.5 release of the service. The APIs supported by Intermine are documented at a [central dashboard](http://iodocs.labs.intermine.org/) where we expect Thalemine to appear soon. For now, you will need to use your imagination a bit to map the API URLs from the iodocs pages to a working invocation of the Thalemine API. 
+Source: [http://iodocs.labs.intermine.org/thalemine/docs](http://iodocs.labs.intermine.org/thalemine/docs)
 
-Here's an example service call to YeastMine which will fetch its data model:
-```
-curl -skL -X GET "http://yeastmine.yeastgenome.org/yeastmine/service/model?format=json"
-```
+Usage: Unlike APIs served from the `/community` endpoint, ThaleMine APIs at present do not require (or accept) authentication, though we expect this to change in the 0.5 release of the service. The APIs supported by various implementations of InterMine are documented at a [central dashboard](http://iodocs.labs.intermine.org/).
 
-The cognate call for Thalemine is:
+The cognate call for ThaleMine is:
 ```
 curl -skL -X GET "https://api.araport.org/intermine/v0.4/model?format=json"
 ```
-
