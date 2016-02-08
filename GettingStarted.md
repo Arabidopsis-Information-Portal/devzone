@@ -119,7 +119,7 @@ The Araport project stands on the shoulders of giants, so there's a lot of other
 * [AIP Project Github](https://github.com/Arabidopsis-Information-Portal) - For better or worse, it's all out there
 * [Thalemine User Guide](https://www.araport.org/thalemine/user-guide) - Start here if you're new to Intermine. API documentation coming soon!
 * [Jbrowse documentation](http://jbrowse.org/) - Our genome browser of choice
-* [Simple Daily Git Workflow](https://www.sonassi.com/wp-content/uploads/2012/07/simple_git_daily_workflow.pdf) - Print it out. Tape it up over your desk. 
+* [Simple Daily Git Workflow](https://www.sonassi.com/media/catalog/2012/07/simple_git_daily_workflow.pdf) - Print it out. Tape it up over your desk. 
 * [OAuth2 Simplified](http://aaronparecki.com/articles/2012/07/29/1/oauth2-simplified) - AIP uses OAuth2 for authentication. In addition to our specific documentation, here's an overview.
 * [JSON Schema](http://json-schema.org/) - AIP will soon publish and adopt JSON schemas for its data service responses. Here's a primer.  
 * [JSONlint.com](http://jsonlint.com) - An online JSON Validator
